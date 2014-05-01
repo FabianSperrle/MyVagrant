@@ -1,0 +1,5 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "hashicorp/precise64"
+  config.vm.provision :shell, :path => "install.sh"
+  config.vm.network :forwarded_port, host: 4567, guest: 80
+end
