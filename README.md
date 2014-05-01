@@ -9,3 +9,5 @@ Ubuntu box with very few additional software:
 - Git
 - cUrl
 - some aliases (`la=ls -la`, `..=`cd ../`)
+
+Port 80 is being forwarded on port 4567.
