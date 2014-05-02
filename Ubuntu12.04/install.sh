@@ -32,6 +32,10 @@ alias la="ls -la"
 echo "--- .. ---"
 alias ..="cd ../"
 
+echo "--- Install composer ---"
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+
 echo "--- Done. ---"
 echo "--- Start Working ---"
 echo "--- Or grab a beer... ---"
