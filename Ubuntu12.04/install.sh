@@ -26,12 +26,6 @@ apt-get install vim curl
 echo "--- Install git ---"
 apt-get install git
 
-echo "--- Create Aliases ---"
-echo "--- la ---"
-alias la="ls -la"
-echo "--- .. ---"
-alias ..="cd ../"
-
 echo "--- Install composer ---"
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
