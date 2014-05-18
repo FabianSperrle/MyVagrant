@@ -9,5 +9,4 @@ Repository holding different vagrant configurations created over time. Currently
   - Vim
   - Git
   - cUrl
-  - some aliases (`la=ls -la`, `..=`cd ../`)
   - Port 80 is being forwarded on port 4567.
